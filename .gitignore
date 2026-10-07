@@ -1,0 +1,27 @@
+# Secrets — never commit
+.env
+.env.*
+*.pem
+*-credentials.json
+service-account*.json
+google-services.json
+
+# OS / editor
+.DS_Store
+.idea/
+.vscode/
+*.swp
+
+# Dependencies / build (future)
+node_modules/
+dist/
+build/
+.next/
+__pycache__/
+.venv/
+venv/
+
+# Local data exports
+*.csv
+exports/
+data/raw/
